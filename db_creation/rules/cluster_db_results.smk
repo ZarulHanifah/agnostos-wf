@@ -14,7 +14,7 @@ rule cluster_db_results:
         or_clu_gene = config["rdir"] + "/cluster_categories/cluster_ids_categ_genes.tsv.gz",
         singl = config["singl"],
         s_categ = config["rdir"] + "/cluster_classification/singleton_gene_cl_categories.tsv",
-        clu_info = onfig["rdir"] + "/mmseqs_clustering/cluDB_info.tsv",
+        clu_info = config["rdir"] + "/mmseqs_clustering/cluDB_info.tsv",
         or_clu_origin = config["rdir"] + "/mmseqs_clustering/cluDB_name_rep_size.tsv",
         or_sp_sh = config["rdir"] + "/spurious_shadow/spurious_shadow_info.tsv",
         or_multi_annot = config["rdir"] + "/annot_and_clust/pfam_name_acc_clan_multi.tsv",
